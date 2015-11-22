@@ -1,0 +1,169 @@
+body {
+  background-image: url('data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAABlBMVEUAAAD///+l2Z/dAAABtklEQVR4nO3PwQkDARRCwaT/plPBPwhLdGEs4OF8Psm+yUbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnIyRslLMREjbK2QgJG+VshISNcjZCwkY5GyFho5yNkLBRzkZI2ChnI5wUvvF0Vl75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhP8pv/P0yA9CwqdGSNgoZyMkbJSzERI2ytkICRvlbISEjXI2QsJGORshYaOcjZCwUc5GSNgoZyMkbJSzERI2ytkICRvlbISEjXI2wknhG09n5ZUfhIR3eeUHIeFdXvlBSHiXV34QEt7llR+EhHd55Qch4V1e+UFIeJdXfhAS3uWVH4SEd3nlByHhXV75QUh4l1d+EBLe5ZUfhIR3eeUHIeFdXvlB+J/yO0+P/CAkfGqEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjJGyUsxESNsrZCAkb5WyEhI1yNkLCRjkbIWGjnI2QsFHORkjYKGcjXBT+ADvYXu2MYPd9AAAAAElFTkSuQmCC');
+  background-size: 300px 0;
+  position: absolute;
+  color: green;
+  background-color: rgba(0, 0, 0, .8);
+}
+header {
+  position: relative;
+  color: green;
+  text-align: center;
+}
+.game {
+  position: relative;
+  background-color: rgba(105, 105, 105, .6);
+  height: 500px;
+  width: 750px;
+  left: 30px;
+}
+.game-board {
+  position: relative;
+  left: 30px;
+  top: 30px;
+  background-color: rgba(105, 105, 105, 1);
+  height: 430px;
+  width: 690px;
+}
+.rowone {
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+}
+.card-one {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.card-two {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.card-three {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.card-four {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  text-align: center;
+} 
+.card-five {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.card-six {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 5px;
+  left: 5px;
+  display: inline-block;
+  text-align: center;
+}
+.rowtwo  {
+  position: absolute;
+  display: inline-block;
+  left: 30px;
+}
+.card-seven {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 200px;
+  left: 5px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.card-eight {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 200px;
+  left: 5px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.card-nine {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 200px;
+  left: 5px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.card-ten {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 200px;
+  left: 5px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.card-eleven {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 200px;
+  left: 5px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.card-twelve {
+  position: relative;
+  background-color: rgba(255, 255, 255, 1);
+  width: 100px;
+  height: 150px;
+  top: 200px;
+  left: 5px;
+  font-size: 30px;
+  display: inline-block;
+  text-align: center;
+}
+.new-game {
+  position: relative;
+  top: 15px;
+  left: 360px;
+  width: 120px;
+}
