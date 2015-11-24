@@ -39,6 +39,7 @@ header {
   left: 5px;
   display: inline-block;
   text-align: center;
+  box-shadow: 10px 10px 5px #888888; 
 }
 .card-two {
   position: relative;
@@ -69,7 +70,7 @@ header {
   left: 5px;
   display: inline-block;
   text-align: center;
-} 
+}
 .card-five {
   position: relative;
   background-color: rgba(255, 255, 255, 1);

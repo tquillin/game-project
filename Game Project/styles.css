@@ -1,0 +1,13 @@
+.facedown {
+  width: 100px;
+  height: 140px;
+  background-image: url("http://ic.pics.livejournal.com/dailyafirmation/691132/529371/529371_original.jpg");
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+.active {
+  width: 100px;
+  height: 140px;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
