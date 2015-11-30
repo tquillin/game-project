@@ -1,4 +1,20 @@
+header{
+  font-family: 'Noto Sans', sans-serif;
+}
+
+body {
+  background-color: lightblue;
+  position: absolute;
+}
+table {
+  position: relative;
+  border: solid black;
+  vertical-align: middle;
+
+}
 .facedown {
+  position: relative;
+  border: solid grey;
   width: 100px;
   height: 140px;
   background-image: url("http://ic.pics.livejournal.com/dailyafirmation/691132/529371/529371_original.jpg");

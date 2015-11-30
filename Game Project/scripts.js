@@ -6,51 +6,34 @@ var $images = [
   "https://irapblog.files.wordpress.com/2014/03/queenlatifah.jpg?w=502&h=510&crop=1",
 ];
 
-$(function(){
-
+$(document).ready(function(){
   $('.facedown').each(function(idx, ele){
-    var $imageUrl =  $images[Math.floor(Math.random() * $images.length)], $maxImageUse = 2;
-    while ($image[$imageUrl] >= $maxImageUse) {
-      $imageUrl = $imageUrl + 1;
-      if ($imageUrl >= $image.length){
-        $imageUrl = 0;
-      }
-
-    }
+    var $imageUrl =  $images[Math.floor(Math.random() * $images.length)];
      var $image = $('<img>').attr('src', $imageUrl);
-     $(ele).append($image);
-    $image.addClass('active');
-    $image.hide();
+      $(ele).append($image);
+      $image.addClass('active');
+      $image.hide();
   });
-
 
    $('table').on('click', '.facedown', function(){
 
-
      var $cell = $(this);
-     $cell.find('img').show();
+
+    $cell.find('img').show();
      $cell.removeClass('facedown');
      $cell.addClass('active');
+
+     $('table').on('click', '.active', function(){
+       
+     });
+
    });
 
    $('table').on('click', '.active', function(){
-
-
      var $cell = $(this);
-
      $cell.find('img').hide();
      $cell.removeClass('active');
      $cell.addClass('facedown');
 });
- });
 
-
- // $(function(){
- //
- //   $('.facedown').each(function(idx, ele){
- //     var $imageUrl =  $images[Math.floor(Math.random() * $images.length)];
- //      var $image = $('<img>').attr('src', $imageUrl);
- //      $(ele).append($image);
- //     $image.addClass('active');
- //     $image.hide();
- //   });
+});
